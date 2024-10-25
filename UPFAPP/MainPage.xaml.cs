@@ -36,6 +36,7 @@ namespace UPFAPP
         {
             get { return _currentInput; }
             set { _currentInput = value; }
+           
         }
 
         private void add_Click(object sender, RoutedEventArgs e)
@@ -43,7 +44,9 @@ namespace UPFAPP
             var button = sender as Button;
             double n1 = (double)Convert.ToInt64(Num1.Text);
             double n2 = (double)Convert.ToInt64(Num2.Text);
-            double result = n1 + n2;
+           
+            double resultValue = n1 + n2;
+            result.Text = resultValue.ToString(); // Display result
         }
 
         private void sub_Click(object sender, RoutedEventArgs e)
@@ -51,7 +54,8 @@ namespace UPFAPP
             var button = sender as Button;
             double n1 = (double)Convert.ToInt64(Num1.Text);
             double n2 = (double)Convert.ToInt64(Num2.Text);
-            double result = n1 - n2;
+            double resultValue = n1 - n2;
+            result.Text = resultValue.ToString(); // Display result
             
         }
 
@@ -60,24 +64,34 @@ namespace UPFAPP
             var button = sender as Button;
             double n1 = (double)Convert.ToInt64(Num1.Text);
             double n2 = (double)Convert.ToInt64(Num2.Text);
-            double result = n1 * n2;
+            double resultValue = n1 * n2;
+            result.Text = resultValue.ToString(); // Display result
            
         }
 
         private void div_btn_Click(object sender, RoutedEventArgs e)
         {
             var button = sender as Button;
-            double n1 = (double)Convert.ToInt64(Num1.Text);
-            double n2 = (double)Convert.ToInt64(Num2.Text);
-            double result = n1 / n2;
-          
+            double n1 = Convert.ToDouble(Num1.Text);
+            double n2 = Convert.ToDouble(Num2.Text);
+
+            if (n2 != 0) // Check for division by zero
+            {
+                double resultValue = n1 / n2;
+                result.Text = resultValue.ToString();  // Display result
+            }
+            else
+            {
+                result.Text = "Cannot divide by zero";  // Error message
+            }
         }
+
         private void UpdateResult()
         {
             double number;
             if (double.TryParse(_currentInput, out number))
             {
-                _currentInput = number.ToString();
+                _currentInput = number.ToString(); // 
             }
             else
             {
