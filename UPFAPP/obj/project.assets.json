@@ -10262,11 +10262,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kande\\OneDrive\\Desktop\\client server\\UPFAPP\\UPFAPP\\UPFAPP.csproj",
+      "projectUniqueName": "K:\\karuna_protfolio_web\\Simple-calculator\\UPFAPP\\UPFAPP.csproj",
       "projectName": "UPFAPP",
-      "projectPath": "C:\\Users\\kande\\OneDrive\\Desktop\\client server\\UPFAPP\\UPFAPP\\UPFAPP.csproj",
+      "projectPath": "K:\\karuna_protfolio_web\\Simple-calculator\\UPFAPP\\UPFAPP.csproj",
       "packagesPath": "C:\\Users\\kande\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kande\\OneDrive\\Desktop\\client server\\UPFAPP\\UPFAPP\\obj\\",
+      "outputPath": "K:\\karuna_protfolio_web\\Simple-calculator\\UPFAPP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

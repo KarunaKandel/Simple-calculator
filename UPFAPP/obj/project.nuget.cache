@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AkWFW+GjJqShYD6tmo8odEyXR+gqpZ8Z9Pnrh6z95Gh444L6fwYrr4Ir9yLQzH8iYPqjqVxOO7Y8VY24eEm49g==",
+  "dgSpecHash": "Dn+A0jhGS+PoAlvj+2fn1k/IMJrLGSSHzlNU42uDQMnPTRj2mojdmqBZmnw3mTWuKEM2IC3aRxxQJyIoJOnMqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kande\\OneDrive\\Desktop\\client server\\UPFAPP\\UPFAPP\\UPFAPP.csproj",
+  "projectFilePath": "K:\\karuna_protfolio_web\\Simple-calculator\\UPFAPP\\UPFAPP.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.12-rel-31116-00\\microsoft.net.native.compiler.2.2.12-rel-31116-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.14\\microsoft.net.uwpcoreruntimesdk.2.2.14.nupkg.sha512",

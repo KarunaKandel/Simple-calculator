@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="UPFAPP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UPFAPP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FFCDAFDA">
+        <Button x:ConnectionId='2' x:Name="add" Height="69" Margin="84,480,0,0" VerticalAlignment="Top" Width="151" FontSize="24" Content="Add"                  />
+        <Button x:ConnectionId='3' x:Name="sub" Height="66" Margin="332,483,0,0" VerticalAlignment="Top" Width="156" FontSize="24" Content="Substract"                  />
+        <Button x:ConnectionId='4' x:Name="mul" Height="72" Margin="577,477,0,0" VerticalAlignment="Top" Width="143" FontSize="24" Content="Multiply"                  />
+        <TextBlock x:ConnectionId='5' x:Name="fNum" HorizontalAlignment="Left" Height="52" Margin="140,142,0,0" TextWrapping="Wrap" Text="Enter first number" VerticalAlignment="Top" Width="366" FontSize="24"/>
+        <TextBlock x:ConnectionId='6' x:Name="sNum" HorizontalAlignment="Left" Height="65" Margin="140,278,0,0" TextWrapping="Wrap" Text="Enter second number" VerticalAlignment="Top" Width="342" FontSize="22"/>
+        <TextBox x:ConnectionId='7' x:Name="Num1" HorizontalAlignment="Left" Height="65" Margin="539,142,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="277" FontSize="22"/>
+        <TextBox x:ConnectionId='8' x:Name="Num2" HorizontalAlignment="Left" Height="65" Margin="539,278,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="277" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Height="67" Margin="375,43,0,0" TextWrapping="Wrap" Text="Calculator App" VerticalAlignment="Top" Width="705" FontSize="48" FontFamily="Algerian"/>
+        <Button x:ConnectionId='9' x:Name="div_btn" Content="Divide" Height="72" Margin="838,477,0,0" VerticalAlignment="Top" Width="183" FontSize="24"                      />
+        <TextBlock HorizontalAlignment="Left" Height="84" Margin="234,610,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top" Width="200" FontSize="36"/>
+        <TextBox x:ConnectionId='10' x:Name="result" HorizontalAlignment="Left" Height="81" Margin="438,610,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340" FontSize="36"/>
+
+    </Grid>
+</Page>
+
